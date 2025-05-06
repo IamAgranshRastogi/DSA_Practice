@@ -3,7 +3,7 @@ class Solution {
         int n = 0;
         for(int i=0;i<nums.length;i++){
             if(nums[i] != val){
-                nums[n] = nums[i];
+                nums[n] = nums[i];  //Shift non-equal element to start
                 n++;
             }
         }  
