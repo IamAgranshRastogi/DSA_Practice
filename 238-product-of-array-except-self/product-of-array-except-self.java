@@ -3,7 +3,6 @@ class Solution {
         int n = nums.length;
         int prefix = 1;
         int numspro[] = new int[n];
-        Arrays.fill(numspro,1);
         for(int i=0; i<n; i++) {
             numspro[i] = prefix; 
             prefix *= nums[i]; 
